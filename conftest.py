@@ -9,7 +9,7 @@ load_dotenv()
 
 @pytest.fixture(scope="session")
 def base_url() -> str:
-    return os.getenv("BASE_URL", "https://reqres.in")
+    return os.getenv("BASE_URL", "https://dummyjson.com")
 
 
 @pytest.fixture(scope="session")
